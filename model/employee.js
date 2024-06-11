@@ -7,5 +7,5 @@ const schema = mongoose.Schema(
     "designation": String
     }
 )
-let employeemodel=mongoose.Model("employee",schema);
-module.exports={employeemodel}
+let employeesmodel=mongoose.model("employee",schema);
+module.exports={employeesmodel}
